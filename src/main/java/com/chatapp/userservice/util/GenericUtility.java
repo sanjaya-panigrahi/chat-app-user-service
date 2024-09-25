@@ -37,7 +37,7 @@ public class GenericUtility {
         try {
             return new ObjectMapper().writeValueAsString(o);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            log.error("Error Occurs {}", e.getOriginalMessage());
         }
         return null;
     }
