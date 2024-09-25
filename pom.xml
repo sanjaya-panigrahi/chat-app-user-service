@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.chatapp</groupId>
-	<artifactId>chatapp-user-service</artifactId>
+	<artifactId>chat-app-user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>chatapp-user-service</name>
 	<description>chatapp-user-service</description>
